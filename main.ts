@@ -268,7 +268,7 @@ class Batalha {
             }   
         });
         //Valida a qtd de vitorias
-        if(coutV > this._minToVictory){
+        if(coutV >= this._minToVictory){
              batalha.vitoria();
              this._couter.style.color = "red";
              this._couter.style.fontSize = "xx-large";
