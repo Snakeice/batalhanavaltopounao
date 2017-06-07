@@ -48,7 +48,7 @@ class Embarcacao {
         for (var i = 0; i < this._tamanho; i++) {
             var pos = this._corpo[i].split(".", 2);
             //console.log(pos);
-            _cells[pos[0]][pos[1]].setValue(Stats.bomb);
+            _cells[pos[0]][pos[1]].setValue(Stats.fire);
         }
 
     }
