@@ -201,7 +201,7 @@ class Batalha {
      */
     render() {
         this._campo.innerHTML = "";
-        var html: string = "<table>";
+        var html: string = "<table cellspacing='0' cellpadding='0'>";
         for (var j = 0; j < this._altura; j++) {
             html += "<tr>";
             for (var l = 0; l < this._largura; l++) {
