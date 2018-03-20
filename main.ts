@@ -1,7 +1,7 @@
 enum Stats {
     bomb = <any>"💣",
     skull = <any>"☠",
-    wather = <any>"♒",
+    water = <any>"♒",
     fire = <any>"🔥"
 }
 
@@ -85,7 +85,7 @@ class Cell {
     constructor(private value: Stats) {
         this._value = value;
         this._pressed = false;
-        this._stat = Stats.wather;
+        this._stat = Stats.water;
     }
 
     getStat():string {
