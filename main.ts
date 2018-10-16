@@ -274,7 +274,7 @@ class Batalha {
              this._couter.style.fontSize = "xx-large";
             this._couter.innerHTML = "Vitoriaaaaaaaaaaaaaaaaaaaaa!";
         } else
-        if(coutV >= this._clicks){
+        if(20 >= this._clicks){
              batalha.vitoria();
              this._couter.style.color = "red";
              this._couter.style.fontSize = "xx-large";
