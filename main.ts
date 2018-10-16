@@ -273,6 +273,12 @@ class Batalha {
              this._couter.style.color = "red";
              this._couter.style.fontSize = "xx-large";
             this._couter.innerHTML = "Vitoriaaaaaaaaaaaaaaaaaaaaa!";
+        } else
+        if(coutV >= this._clicks){
+             batalha.vitoria();
+             this._couter.style.color = "red";
+             this._couter.style.fontSize = "xx-large";
+            this._couter.innerHTML = "Perdeu!";
         }
     }
 }
@@ -283,5 +289,5 @@ var batalha = new Batalha(campo,//Campo
                          couter,//Contador
                          15,//Largura
                          15,//Altura
-                         2);//Numero de embarcações
+                         4);//Numero de embarcações
 batalha.render();
